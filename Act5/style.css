@@ -1,0 +1,48 @@
+header{
+    width: 100%;
+    display: inline-block; /*Fórmula para determinar contenedores*/
+}
+
+header h1{
+    margin: 1%;
+    text-align: center;
+}
+
+header nav{
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    display: inline-block;
+}
+
+header nav ul li{
+    text-align: center;
+    width: 20%;
+  
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    margin-left: 2%;
+    list-style: none;
+    float: left;
+}
+
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.nav1 ul li{
+      box-shadow: 5px 5px 5px aqua;
+    border-radius: 20px;
+    background-color: peru;
+    padding: 1%;
+}
+.nav2{
+
+background-color: yellowgreen;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
