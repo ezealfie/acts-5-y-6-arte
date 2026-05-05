@@ -1,24 +1,31 @@
-header{
-    width: 100%;
-    display: inline-block; /*Fórmula para determinar contenedores*/
+* {
+    margin: 0%;
+    padding: 0%;
 }
 
-header h1{
+header {
+    width: 100%;
+    display: inline-block;
+    clear: both;
+    margin-bottom: 5%;
+}
+
+header h1 {
     margin: 1%;
     text-align: center;
 }
 
-header nav{
+header nav {
     width: 30%;
     margin-left: 35%;
     margin-right: 35%;
     display: inline-block;
 }
 
-header nav ul li{
+header nav ul li {
     text-align: center;
-    width: 20%;
-  
+    width: 22%;
+    border-radius: 10px;
     padding-bottom: 0.5%;
     padding-top: 0.5%;
     margin-left: 2%;
@@ -26,23 +33,62 @@ header nav ul li{
     float: left;
 }
 
-
-header nav ul li a{
+header nav ul li a {
     text-decoration: none;
     color: black;
 }
 
 
-
-.nav1 ul li{
-      box-shadow: 5px 5px 5px aqua;
-    border-radius: 20px;
-    background-color: peru;
-    padding: 1%;
+.header1 {
+    background-color: #f8f8f8;
 }
-.nav2{
 
-background-color: yellowgreen;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.header1 nav ul li {
+    background-color: peru;
+    box-shadow: 5px 5px 5px aqua;
+}
 
+.header1 nav ul li a {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.header2 {
+    background-color: yellowgreen;
+}
+
+.header2 nav ul li {
+    background-color: white;
+    box-shadow: 3px 3px 5px green;
+    border-radius: 0px;
+}
+
+.header2 nav ul li a {
+    color: #333;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.header3 {
+    background-color: #333;
+}
+
+.header3 h1 {
+    color: white;
+}
+
+.header3 nav ul li {
+    background-color: transparent;
+    box-shadow: none;
+    border: 1px solid white;
+}
+
+.header3 nav ul li a {
+    color: white;
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    font-size: 14px;
 }
